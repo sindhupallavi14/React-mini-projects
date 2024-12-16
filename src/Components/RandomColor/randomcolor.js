@@ -21,14 +21,13 @@ export function RandomColor()
         }
         console.log(hexColor);
         setColor(hexColor)
-        
     }
+
     function handleCreateRgbColor()
     {
         const r=randomColorUtility(256);
         const g=randomColorUtility(256);
         const b=randomColorUtility(256);
-
         setColor(`rgb(${r},${g},${b})`)
     }
 
@@ -36,6 +35,7 @@ export function RandomColor()
       if(typeOfColor==='rgb') handleCreateRgbColor()
       else handleCreateHexColor()
     },[typeOfColor])
+    
    return(
         <div className="container" style={{
             background:color
