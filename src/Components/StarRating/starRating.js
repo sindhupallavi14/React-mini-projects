@@ -1,6 +1,7 @@
 import { FaStar } from "react-icons/fa";
 import "./starRating.css"
 import { useState } from "react";
+import watch from "./watch.jpeg";
 
 export  function StarRating({noOfStars=5})
 {
@@ -10,7 +11,6 @@ export  function StarRating({noOfStars=5})
     function handleClick(getcrntidx)
     {
          setRating(getcrntidx);
-         
     }
 
     function handleMouseMove(getcrntidx)
@@ -25,7 +25,9 @@ export  function StarRating({noOfStars=5})
 
    return(
     <div className="star-rating">
-           {
+         <img src={watch} style={{width:300,height:300}} />
+         <div >
+         {
              [...Array(noOfStars)].map((_,idx)=>
              {
                  idx+=1
@@ -40,6 +42,7 @@ export  function StarRating({noOfStars=5})
              }
             )
            }
+         </div>
     </div>
    )
 }
