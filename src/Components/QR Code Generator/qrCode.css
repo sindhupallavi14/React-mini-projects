@@ -1,0 +1,28 @@
+.qrcode-inputfield 
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.qrcode-inputfield input{
+    background: #ffffff;
+    width:220px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border:2px solid rgb(116, 107, 124);
+}
+.qrcode-inputfield button
+{
+   background: #ac7676;
+   width:130px;
+   height:35px;
+   border-radius:5px;
+   font-size:1.4rem;
+   cursor: pointer;
+}
+.qrcode{
+    margin-top: 50px;
+}
