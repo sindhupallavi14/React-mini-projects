@@ -1,0 +1,35 @@
+.load-more-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.prdct-con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+
+.prdct{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border:1px solid;
+    padding:20px;
+
+}
+
+.prdct img{
+    width:260px;
+    height:210px;
+    margin-left: 30px;
+}
+
+.btn-con button{
+    background: #ac7676;
+    width:130px;
+    height:35px;
+    border-radius:5px;
+    font-size:1rem;
+    cursor: pointer;
+}

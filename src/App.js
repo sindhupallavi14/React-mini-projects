@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Accordian from './Components/Accordian/accordian';
+import { LoadMoreButton } from './Components/LoadMore/loadmorebtn';
 
 import { QRCodeGenerator } from './Components/QR Code Generator/qrCode';
 import { RandomColor } from './Components/RandomColor/randomcolor';
@@ -16,7 +17,9 @@ function App() {
       {/* Star Rating */}
         {/* <StarRating/> */}
       {/* QRCode Generator */}
-        <QRCodeGenerator/>
+        {/* <QRCodeGenerator/> */}
+      {/* Load more button */}
+          <LoadMoreButton/>
       
 
     </div>
