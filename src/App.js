@@ -6,10 +6,11 @@ import { LoadMoreButton } from './Components/LoadMore/loadmorebtn';
 import { QRCodeGenerator } from './Components/QR Code Generator/qrCode';
 import { RandomColor } from './Components/RandomColor/randomcolor';
 import { StarRating } from './Components/StarRating/starRating';
+import { TabTest } from './Components/Tabs/TabTest';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       {/* Accordian */}
         {/* <Accordian/> */}
       {/* Random Color */}
@@ -19,7 +20,8 @@ function App() {
       {/* QRCode Generator */}
         {/* <QRCodeGenerator/> */}
       {/* Load more button */}
-          <LoadMoreButton/>
+          {/* <LoadMoreButton/> */}
+        <TabTest/>
       
 
     </div>

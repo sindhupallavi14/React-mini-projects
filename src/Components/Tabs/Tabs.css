@@ -1,0 +1,30 @@
+
+.heading{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    gap:5px;
+}
+
+.label{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.active{
+    background-color: rgb(198, 29, 29);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.content{
+  font-size:1.2rem;
+  color: rgb(44, 29, 204);
+}
