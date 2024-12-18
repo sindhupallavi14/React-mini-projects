@@ -20,9 +20,9 @@ export function Tabs({tabscontent,onChange})
                 ))
            }
         </div>
-        <div className="content">
+        <h1 className="content">
             {tabscontent[crnttabidx] && tabscontent[crnttabidx].content}
-        </div>
+        </h1>
     </div>
    )
 } 
