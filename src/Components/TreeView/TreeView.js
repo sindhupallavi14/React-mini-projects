@@ -1,9 +1,11 @@
+import { MenuList } from "./menulist";
+import "./TreeView.css"
 
-export function TreeView()
+export function TreeView({menus=[]})
 {
     return(
-        <div className="container">
-            
+        <div className="tree-view-container" >
+            <MenuList list={menus}/>
         </div>
     )
 }

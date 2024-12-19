@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import {menus} from "./Components/TreeView/data"
 import Accordian from './Components/Accordian/accordian';
 import { LoadMoreButton } from './Components/LoadMore/loadmorebtn';
 
@@ -8,6 +9,7 @@ import { RandomColor } from './Components/RandomColor/randomcolor';
 import { StarRating } from './Components/StarRating/starRating';
 import { TabTest } from './Components/Tabs/TabTest';
 import { TicTacToe } from './Components/Tic Tac Toe/tictactoe';
+import { TreeView } from './Components/TreeView/TreeView';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
 
         {/* <TabTest/> */}
 
-        <TicTacToe/>
+        {/* <TicTacToe/> */}
+
+        <TreeView menus={menus}/>
       
 
     </div>

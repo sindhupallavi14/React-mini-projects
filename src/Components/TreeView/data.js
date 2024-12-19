@@ -3,6 +3,7 @@ export const menus = [
       label: "Home",
       to: "/",
     },
+
     {
       label: "Profile",
       to: "/profile",
@@ -18,6 +19,12 @@ export const menus = [
                 {
                   label: "City",
                   to: "city",
+                  children:[
+                    {
+                      label:"Area",
+                      to:"area"
+                    }
+                  ]
                 },
               ],
             },
@@ -25,6 +32,7 @@ export const menus = [
         },
       ],
     },
+
     {
       label: "Settings",
       to: "/settings",
@@ -55,6 +63,7 @@ export const menus = [
         },
       ],
     },
+    
   ];
   
   export default menus;
