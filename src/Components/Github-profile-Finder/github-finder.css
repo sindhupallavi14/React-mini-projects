@@ -1,0 +1,62 @@
+.github-profile-con
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-con
+{
+   display: flex;
+   margin-top: 30px;
+   gap:20px;
+}
+
+.input-con input{
+    width:200px;
+    height: 30px;
+    background-color: rgb(244, 252, 252);
+    border-radius: 5px;
+}
+
+.input-con button{
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 1rem;
+}
+
+.user-profile{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.user-profile p{
+    font-size: 15px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width:300px;
+    height: 300px;
+    box-shadow: 0px 2px 15px 1px black;
+}
+
+.user-details{
+   display: flex;
+   gap:10px;
+}
+
+.user-card{
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin:25px ;
+    padding:30px;
+    background-color: aliceblue;
+}
