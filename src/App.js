@@ -10,6 +10,7 @@ import { StarRating } from './Components/StarRating/starRating';
 import { TabTest } from './Components/Tabs/TabTest';
 import { TicTacToe } from './Components/Tic Tac Toe/tictactoe';
 import { TreeView } from './Components/TreeView/TreeView';
+import { Theme } from './Components/Toggle Theme/theme';
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
 
         {/* <TicTacToe/> */}
 
-        <TreeView menus={menus}/>
+        {/* <TreeView menus={menus}/> */}
+
+        <Theme/>
       
 
     </div>

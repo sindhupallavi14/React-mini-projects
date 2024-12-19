@@ -1,0 +1,40 @@
+:root{
+   --background:white;
+   --text-primary:black;
+   --button-bg:black;
+   --button-text:white;
+}
+
+[data-theme='dark']
+{
+    --background:black;
+    --text-primary:white;
+    --button-bg:white;
+    --button-text:black;
+}
+
+.light-dark-mode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    height: 100vh;
+    transition: all 0.8s;
+}
+
+.light-dark-mode p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 30px;
+   color: var(--text-primary);
+}
+
+.light-dark-mode button{
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    font-size: 1.2rem; 
+    width:185px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid var(--button-text);
+}
