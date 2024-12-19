@@ -12,6 +12,7 @@ import { TicTacToe } from './Components/Tic Tac Toe/tictactoe';
 import { TreeView } from './Components/TreeView/TreeView';
 import { Theme } from './Components/Toggle Theme/theme';
 import { GithubProfileFinder } from './Components/Github-profile-Finder/github-finder';
+import { SearchAutofill } from './Components/Search-autofill-with-api/search';
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
 
         {/* <Theme/> */}
         
-        <GithubProfileFinder/>
+        {/* <GithubProfileFinder/> */}
+
+        <SearchAutofill/>
       
 
     </div>
