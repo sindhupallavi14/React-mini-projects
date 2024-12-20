@@ -17,6 +17,7 @@ import { ScrollIndicator } from './Components/custom scroll indicator/scroll ind
 import { ScrollTopBottom } from './Components/Scroll to Top & Bottom/scroll';
 import Scrollparticulardiv from './Components/Scroll-particular-section/scroll';
 import CustomUseFetch from './Components/useFetch-Custom-Hook/test';
+import { UseOnClickOutsideTest } from './Components/use-onClickOutside/test';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
 
         {/* <Scrollparticulardiv/> */}
          
-        <CustomUseFetch/>
+        {/* <CustomUseFetch/> */}
+        <UseOnClickOutsideTest/>
       
 
       
