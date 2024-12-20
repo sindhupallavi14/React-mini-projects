@@ -14,6 +14,7 @@ import { Theme } from './Components/Toggle Theme/theme';
 import { GithubProfileFinder } from './Components/Github-profile-Finder/github-finder';
 import { SearchAutofill } from './Components/Search-autofill-with-api/search';
 import { ScrollIndicator } from './Components/custom scroll indicator/scroll indicator';
+import { ScrollTopBottom } from './Components/Scroll to Top & Bottom/scroll';
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
 
         {/* <SearchAutofill/> */}
 
-        <ScrollIndicator/>
+        <ScrollTopBottom/>
       
 
     </div>
