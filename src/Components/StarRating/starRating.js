@@ -33,7 +33,7 @@ export  function StarRating({noOfStars=5})
                  idx+=1
                  return <FaStar
                  key={idx}
-                 className={idx<=(hover || rating) ? 'active' :'inactive'}
+                 className={idx<=(hover || rating) ? 'star-active' :'inactive'}
                  onClick={()=>handleClick(idx)}
                  onMouseMove={()=>handleMouseMove(idx)}
                  onMouseLeave={()=>handleMouseLeave()}

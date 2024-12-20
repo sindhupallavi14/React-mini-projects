@@ -1,3 +1,10 @@
+.qr-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .qrcode-inputfield 
 {
     display: flex;

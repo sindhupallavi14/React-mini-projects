@@ -14,7 +14,7 @@ export function QRCodeGenerator()
     }
 
     return(
-        <div>
+        <div className="qr-con">
             <h1>QR Code Generator</h1>
             <div className="qrcode-inputfield">
                 <input onChange={(e)=>setInput(e.target.value)} type="text" name="qr-code" placeholder="Enter Value" value={input}  />

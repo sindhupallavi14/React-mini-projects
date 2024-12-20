@@ -53,7 +53,7 @@ export function LoadMoreButton() {
             ))
           : null}
       </div>
-      <div className="btn-con">
+      <div className="button-con">
         <button disabled={disablebtn} onClick={()=>setCnt(cnt+1)}>Load More.....</button>
           {disablebtn && <p>You have reached 100 products</p>}
       </div>
