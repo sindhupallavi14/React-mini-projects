@@ -16,6 +16,7 @@ import { SearchAutofill } from './Components/Search-autofill-with-api/search';
 import { ScrollIndicator } from './Components/custom scroll indicator/scroll indicator';
 import { ScrollTopBottom } from './Components/Scroll to Top & Bottom/scroll';
 import Scrollparticulardiv from './Components/Scroll-particular-section/scroll';
+import CustomUseFetch from './Components/useFetch-Custom-Hook/test';
 
 function App() {
   return (
@@ -49,7 +50,11 @@ function App() {
 
         {/* <ScrollTopBottom/> */}
 
-        <Scrollparticulardiv/>
+        {/* <Scrollparticulardiv/> */}
+         
+        <CustomUseFetch/>
+      
+
       
 
     </div>
