@@ -10,7 +10,6 @@ export default function Accordian() {
     setSelected(crntid === selected ? null : crntid);
   }
 
-  
   function handlemultiSelection(crntid) {
     let cpymulti = [...multi];
     const findindexOfcrntid = cpymulti.indexOf(crntid);
