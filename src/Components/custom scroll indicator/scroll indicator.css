@@ -1,0 +1,32 @@
+.data-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scroll-con h1{
+    background-color: rgb(188, 255, 255);
+    margin-top:-1px ;
+    height: 44px;
+    padding: 5px;
+}
+.top-con{
+    position: fixed;
+    top:0;
+    z-index:1;
+    width: 100%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.scroll-progress-tracking-con{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(162, 226, 235);
+    margin-top: -28px;
+}
+
+.crnt-progress-bar{
+    height: 7px;
+    background-color: rgb(3, 113, 150);
+    width: 0%;
+    transition:all 0.2s;
+}

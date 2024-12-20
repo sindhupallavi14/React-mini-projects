@@ -13,10 +13,11 @@ import { TreeView } from './Components/TreeView/TreeView';
 import { Theme } from './Components/Toggle Theme/theme';
 import { GithubProfileFinder } from './Components/Github-profile-Finder/github-finder';
 import { SearchAutofill } from './Components/Search-autofill-with-api/search';
+import { ScrollIndicator } from './Components/custom scroll indicator/scroll indicator';
 
 function App() {
   return (
-    <div >
+    <div>
       {/* Accordian */}
         {/* <Accordian/> */}
 
@@ -42,7 +43,9 @@ function App() {
         
         {/* <GithubProfileFinder/> */}
 
-        <SearchAutofill/>
+        {/* <SearchAutofill/> */}
+
+        <ScrollIndicator/>
       
 
     </div>
