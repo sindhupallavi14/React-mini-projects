@@ -18,6 +18,8 @@ import { ScrollTopBottom } from './Components/Scroll to Top & Bottom/scroll';
 import Scrollparticulardiv from './Components/Scroll-particular-section/scroll';
 import CustomUseFetch from './Components/useFetch-Custom-Hook/test';
 import { UseOnClickOutsideTest } from './Components/use-onClickOutside/test';
+import { ResponsiveWindow } from './Components/Responsive window/test';
+import { ImageSlider } from './Components/ImageSlider/imageSlider';
 
 function App() {
   return (
@@ -54,7 +56,12 @@ function App() {
         {/* <Scrollparticulardiv/> */}
          
         {/* <CustomUseFetch/> */}
-        <UseOnClickOutsideTest/>
+
+        {/* <UseOnClickOutsideTest/> */}
+
+        {/* <ResponsiveWindow/> */}
+
+        <ImageSlider/>
       
 
       
