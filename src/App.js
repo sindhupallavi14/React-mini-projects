@@ -22,6 +22,7 @@ import { ResponsiveWindow } from './Components/Responsive window/test';
 import { ImageSlider } from './Components/ImageSlider/imageSlider';
 import Featureflag from './Components/Feature-flags/feeatureflag';
 import Customfeatureflag from './Components/Feature-flags/context/featureContext';
+import { ModalTest } from './Components/Modal-popup/modalTest';
 
 function App() {
   return (
@@ -65,9 +66,14 @@ function App() {
 
         {/* <ImageSlider/> */}
 
+        {/* 
         <Customfeatureflag>
         <Featureflag/>
-        </Customfeatureflag>
+        </Customfeatureflag> */}
+
+        <ModalTest/>
+
+
          
       
 
