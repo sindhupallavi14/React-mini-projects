@@ -24,20 +24,22 @@ export function ImageSlider()
           try{
               setloading(true);
               const response = await fetch(`${geturl}?page=${1}&limit=${5}`);
-              // if(!response.ok){
-              //     throw new Error
-              // }
+              if(!response.ok){
+                  throw new Error
+              }
               const data = await response.json();
-             if(data) 
-              {setloading(false);
-                  setImages(data);}
+            //  if(data) 
+            //   {
+                setloading(false);
+                  setImages(data);
+                // }
               }
               catch(e){
                   seterror(e.message);
               }
           }
         //   fetchImages("https://picsum.photos/v2/list?page=1&limit%20=5");
-        fetchImages("https://fakestoreapi.com/products/")
+        fetchImages("https://picsum.photos/v2/list?page=1&limit%20=5")
       },[])
 
       if(Loading){
@@ -48,10 +50,11 @@ export function ImageSlider()
       }
 
    return(
-    <div className="img-container">
+   <div className="con">
+      <div className="img-container">
       <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrev}/>
             {images.map((item,idx)=>{
-                    return(<img key={idx} alt ={item.title} src={item.image} 
+                    return(<img key={idx} alt ={item.author} src={item.download_url} 
                     className={currentSlide === idx?"current-image":"hiden-current-image"}
                 />)
             })}
@@ -66,5 +69,6 @@ export function ImageSlider()
 
       </span>
     </div>
+   </div>
    )
 }
