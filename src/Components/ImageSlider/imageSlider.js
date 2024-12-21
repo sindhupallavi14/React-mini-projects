@@ -55,7 +55,7 @@ export function ImageSlider()
       <BsArrowLeftCircleFill className="arrow arrow-left" onClick={handlePrev}/>
             {images.map((item,idx)=>{
                     return(<img key={idx} alt ={item.author} src={item.download_url} 
-                    className={currentSlide === idx?"current-image":"hiden-current-image"}
+                    className={currentSlide === idx?"current-image":"hidden-current-image"}
                 />)
             })}
       <BsArrowRightCircleFill className="arrow arrow-right" onClick={handleNext}/>
