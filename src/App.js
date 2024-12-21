@@ -20,6 +20,8 @@ import CustomUseFetch from './Components/useFetch-Custom-Hook/test';
 import { UseOnClickOutsideTest } from './Components/use-onClickOutside/test';
 import { ResponsiveWindow } from './Components/Responsive window/test';
 import { ImageSlider } from './Components/ImageSlider/imageSlider';
+import Featureflag from './Components/Feature-flags/feeatureflag';
+import Customfeatureflag from './Components/Feature-flags/context/featureContext';
 
 function App() {
   return (
@@ -61,7 +63,12 @@ function App() {
 
         {/* <ResponsiveWindow/> */}
 
-        <ImageSlider/>
+        {/* <ImageSlider/> */}
+
+        <Customfeatureflag>
+        <Featureflag/>
+        </Customfeatureflag>
+         
       
 
       
