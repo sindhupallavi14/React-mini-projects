@@ -20,7 +20,7 @@ export default function Pagination({ crntPage, totPages, onPageChange }) {
       </button>
       {generateNoOfPages().map((pageNo) => (
         <button
-          className="pagination-btn"
+        className={`pagination-btn ${crntPage===pageNo ? 'page-active' : ""}`}
           key={pageNo}
           onClick={() => onPageChange(pageNo)}
         >

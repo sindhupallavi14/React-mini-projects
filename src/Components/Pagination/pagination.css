@@ -29,16 +29,17 @@
 
 .page-item{
     background-color:rgb(172, 239, 251);
-    width:99px;
-    height:30px;
-    /* text-align: center; */
-    padding:5px;
+    padding:20px;
     list-style: none;
-    font-size: 18px;
+    font-weight:bolder ;
     border-radius: 5px;
 }
 
 .pagination-btn:disabled
 {
     cursor: not-allowed;
-}    
+}  
+
+.page-active{
+    background-color: red;
+}
