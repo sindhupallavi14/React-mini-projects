@@ -23,6 +23,7 @@ import { ImageSlider } from './Components/ImageSlider/imageSlider';
 import Featureflag from './Components/Feature-flags/feeatureflag';
 import Customfeatureflag from './Components/Feature-flags/context/featureContext';
 import { ModalTest } from './Components/Modal-popup/modalTest';
+import Paginationtest from './Components/Pagination/pagination-test';
 
 function App() {
   return (
@@ -71,7 +72,9 @@ function App() {
         <Featureflag/>
         </Customfeatureflag> */}
 
-        <ModalTest/>
+        {/* <ModalTest/> */}
+
+        <Paginationtest/>
 
 
          

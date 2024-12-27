@@ -19,7 +19,7 @@ export function ModalTest()
        <div className="modal-con">
          <button onClick={handleTogglePopUp}>Click to open Modal PopUp</button>
             {
-                showModalPopup && <Modal  id={"custom-id"} header={<p>Customize Header</p>} footer={<p>Customize Footer</p>} body={<p>Customize Body</p>} onClose={handleonClose}/>
+                showModalPopup && <Modal id={"custom-id"} header={<p>Customize Header</p>} footer={<p>Customize Footer</p>} body={<p>Customize Body</p>} onClose={handleonClose}/>
             }
        </div>
     )
