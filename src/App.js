@@ -25,6 +25,7 @@ import Customfeatureflag from './Components/Feature-flags/context/featureContext
 import { ModalTest } from './Components/Modal-popup/modalTest';
 import Paginationtest from './Components/Pagination/pagination-test';
 import Clock from './Components/Digital-Clock/clock';
+import TimerTest from './Components/Timer/timer-test';
 
 function App() {
   return (
@@ -76,7 +77,11 @@ function App() {
         {/* <ModalTest/> */}
 
         {/* <Paginationtest/> */}
-        <Clock/>
+
+        {/* <Clock/> */}
+
+        <TimerTest/>
+
 
 
          
