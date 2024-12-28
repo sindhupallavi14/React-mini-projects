@@ -27,6 +27,7 @@ import Paginationtest from './Components/Pagination/pagination-test';
 import Clock from './Components/Digital-Clock/clock';
 import TimerTest from './Components/Timer/timer-test';
 import StepProgressTest from './Components/Step-Progress-bar/StepProgressTest';
+import Filter from './Components/Filter/filter';
 
 function App() {
   return (
@@ -83,7 +84,9 @@ function App() {
 
         {/* <TimerTest/> */}
 
-        <StepProgressTest/>
+        {/* <StepProgressTest/> */}
+
+        <Filter/>
 
 
 

@@ -1,0 +1,49 @@
+.filter-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.filter-con .list-of-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    list-style: none;
+}
+
+.filter-con .list-of-products li{
+    width: 30%;
+}
+
+.item-list {
+    background-color: rgb(174, 235, 235);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.item-list button{
+    background-color: antiquewhite;
+    border: 1px solid rgb(249, 149, 19);
+    border-radius: 5px;
+    width:auto;
+    height: 30px;
+}
+
+    
+.categories button{
+    background-color: rgb(200, 201, 200);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width:auto;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.active-category{
+    background-color: rgb(157, 252, 157);
+    border: 1px solid rgb(0, 0, 0);
+}
