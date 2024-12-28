@@ -26,6 +26,7 @@ import { ModalTest } from './Components/Modal-popup/modalTest';
 import Paginationtest from './Components/Pagination/pagination-test';
 import Clock from './Components/Digital-Clock/clock';
 import TimerTest from './Components/Timer/timer-test';
+import StepProgressTest from './Components/Step-Progress-bar/StepProgressTest';
 
 function App() {
   return (
@@ -80,7 +81,9 @@ function App() {
 
         {/* <Clock/> */}
 
-        <TimerTest/>
+        {/* <TimerTest/> */}
+
+        <StepProgressTest/>
 
 
 
