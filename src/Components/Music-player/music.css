@@ -1,0 +1,39 @@
+.mus-player-con{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.song-img{
+   width: 300px;
+   height: 300px;
+   margin-bottom: 10px;
+}
+.track-btns{
+   margin-top: 30px;
+   display: flex;
+   gap:10px;
+}
+
+.track-btns button{
+   border:1px solid black;
+   border-radius: 5px;
+   background-color: bisque;
+   padding: 6px;
+   font-size: 18px;
+}
+
+.progress-bar{
+    height:10px;
+    width:50%;
+    background-color: rgb(143, 145, 145);
+    padding-left: 2px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.progress{
+    height: inherit;
+    border-radius: inherit;
+}

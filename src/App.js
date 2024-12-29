@@ -30,6 +30,7 @@ import StepProgressTest from './Components/Step-Progress-bar/StepProgressTest';
 import Filter from './Components/Filter/filter';
 import Ripple from './Components/Ripple-Effect/Ripple';
 import Currency from './Components/Currency/currency';
+import Music from './Components/Music-player/music';
 
 function App() {
   return (
@@ -92,7 +93,9 @@ function App() {
 
         {/* <Ripple/> */}
 
-        <Currency/>
+        {/* <Currency/> */}
+
+        <Music/>
 
 
 
