@@ -1,0 +1,46 @@
+.ripple-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+ .ripple-btn{
+    border: 1px solid rgb(2, 200, 255);
+    background-color:rgb(205, 254, 254);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner-span{
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(35, 72, 255);
+    content: "";
+    display: block;
+    opacity: 1;
+    border-radius: 50%;
+    animation: 1s ease 1 backwards bubble;
+}
+
+
+@keyframes bubble{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(10);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(40);
+        opacity: 0;
+    }
+    
+}

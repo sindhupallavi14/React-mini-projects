@@ -28,6 +28,7 @@ import Clock from './Components/Digital-Clock/clock';
 import TimerTest from './Components/Timer/timer-test';
 import StepProgressTest from './Components/Step-Progress-bar/StepProgressTest';
 import Filter from './Components/Filter/filter';
+import Ripple from './Components/Ripple-Effect/Ripple';
 
 function App() {
   return (
@@ -86,7 +87,9 @@ function App() {
 
         {/* <StepProgressTest/> */}
 
-        <Filter/>
+        {/* <Filter/> */}
+
+        <Ripple/>
 
 
 
