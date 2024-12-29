@@ -29,6 +29,7 @@ import TimerTest from './Components/Timer/timer-test';
 import StepProgressTest from './Components/Step-Progress-bar/StepProgressTest';
 import Filter from './Components/Filter/filter';
 import Ripple from './Components/Ripple-Effect/Ripple';
+import Currency from './Components/Currency/currency';
 
 function App() {
   return (
@@ -89,7 +90,9 @@ function App() {
 
         {/* <Filter/> */}
 
-        <Ripple/>
+        {/* <Ripple/> */}
+
+        <Currency/>
 
 
 
