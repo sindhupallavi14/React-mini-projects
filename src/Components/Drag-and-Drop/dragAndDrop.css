@@ -1,0 +1,38 @@
+.drag-and-drop-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.drag-and-drop-board{
+    display: flex;
+    gap:20px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.work-in-progress-todo,.completed-todo{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.work-in-progress-todo,.completed-todo h3{
+    text-align: center;
+}
+
+.work-in-progress-todo div{
+    background-color: rgb(193, 239, 239);
+}
+
+.completed-todo div{
+    background-color: rgb(255, 101, 24);
+}
+
+.todo-card{
+    padding: 10px;
+}
