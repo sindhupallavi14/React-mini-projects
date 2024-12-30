@@ -34,6 +34,7 @@ import Music from './Components/Music-player/music';
 import DragandDrop from './Components/Drag-and-Drop/DragandDrop';
 import SortData from './Components/SortData/SortData';
 import FormValidation from './Components/Form-Validation/FormValidation';
+import Quote from './Components/RandomQuoteGenerator/quote';
 
 function App() {
   return (
@@ -103,7 +104,8 @@ function App() {
         {/* <DragandDrop/> */}
 
         {/* <SortData/> */}
-        <FormValidation/>
+        {/* <FormValidation/> */}
+        <Quote/>
 
 
 
