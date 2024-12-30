@@ -33,6 +33,7 @@ import Currency from './Components/Currency/currency';
 import Music from './Components/Music-player/music';
 import DragandDrop from './Components/Drag-and-Drop/DragandDrop';
 import SortData from './Components/SortData/SortData';
+import FormValidation from './Components/Form-Validation/FormValidation';
 
 function App() {
   return (
@@ -101,7 +102,8 @@ function App() {
 
         {/* <DragandDrop/> */}
 
-        <SortData/>
+        {/* <SortData/> */}
+        <FormValidation/>
 
 
 
