@@ -32,6 +32,7 @@ import Ripple from './Components/Ripple-Effect/Ripple';
 import Currency from './Components/Currency/currency';
 import Music from './Components/Music-player/music';
 import DragandDrop from './Components/Drag-and-Drop/DragandDrop';
+import SortData from './Components/SortData/SortData';
 
 function App() {
   return (
@@ -98,7 +99,9 @@ function App() {
 
         {/* <Music/> */}
 
-        <DragandDrop/>
+        {/* <DragandDrop/> */}
+
+        <SortData/>
 
 
 

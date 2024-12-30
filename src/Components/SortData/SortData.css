@@ -1,0 +1,29 @@
+.sort-data-con
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user{  
+    list-style: none;
+    font-size: 18px;
+    margin-left: -25px;
+    background-color: rgb(200, 167, 230);
+    padding: 0px 9px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.sort-dropDown select{
+    background-color: beige;
+    color: rgb(0, 44, 44);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-con{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:70px;
+}
