@@ -1,0 +1,19 @@
+.tooltip-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10% ;
+}
+
+.tool-tip{
+   text-align: center;
+  
+}
+
+.tooltip{
+    background-color: rgb(49, 56, 61);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

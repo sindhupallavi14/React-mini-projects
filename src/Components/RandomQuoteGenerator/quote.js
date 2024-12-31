@@ -36,9 +36,7 @@ export default function Quote() {
         {
             return(<h1>loading.........!!!!</h1>)
         }
-       
-        
-    
+   
   return (
     <div className='quote-gen-con'>
         <h1>Random Quote Generator</h1>
