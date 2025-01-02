@@ -1,0 +1,41 @@
+.Nested-comments-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.add-cmt-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    border-radius: 9px;
+}
+
+.add-cmt-con button{
+    border-radius: 5px;
+    background-color: rgb(196, 195, 247);
+    border:2px solid rgb(7, 3, 239) ;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.add-rply,button{
+    border-radius: 5px;
+    background-color: rgb(155, 239, 244);
+    border:1px solid rgb(0, 0, 0) ;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cmts-list button{
+   margin-left: 10px;
+}
+

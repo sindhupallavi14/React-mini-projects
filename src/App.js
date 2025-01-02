@@ -35,8 +35,9 @@ import DragandDrop from './Components/Drag-and-Drop/DragandDrop';
 import SortData from './Components/SortData/SortData';
 import FormValidation from './Components/Form-Validation/FormValidation';
 import Quote from './Components/RandomQuoteGenerator/quote';
-import CustomProgressBar from './Components/Custom-progress-bar/CustomProgressBar';
+
 import ToolTip from './Components/ToolTip/ToolTip';
+import NestedComments from './Components/Nested-Comments/NestedComments';
 
 function App() {
   return (
@@ -109,7 +110,9 @@ function App() {
         {/* <FormValidation/> */}
         {/* <Quote/> */}
 
-        <ToolTip/>
+        {/* <ToolTip/> */}
+
+        <NestedComments/>
 
 
 
